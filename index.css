@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Clean professional typography and subtle enhancements */
+body {
+  font-feature-settings: "kern" "tnum" "cv03" "cv04" "cv05";
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Smooth focus styles */
+textarea:focus, input:focus {
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+/* Nice checkbox styling */
+input[type="checkbox"] {
+  accent-color: #2563eb;
+}
+
+/* Step circle transitions */
+.round-step {
+  transition: all 0.2s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
